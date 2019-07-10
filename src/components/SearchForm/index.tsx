@@ -13,7 +13,7 @@ import DatePicker from '../DatePicker/';
 import LocationInput from '../LocationInput/';
 import RF from "react-native-responsive-fontsize";
 import { getTides } from '../../redux/actions/searchActions';
-const BeachTides = require('../../assets/images/BeachTides.png');
+const BeachTides = require('../../../assets/images/BeachTides.png');
 
 const mapStateToProps = state => {
   const { location, date } = state.search;

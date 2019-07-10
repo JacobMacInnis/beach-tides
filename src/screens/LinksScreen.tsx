@@ -9,7 +9,7 @@ import {
   Image
 } from 'react-native';
 import { WebBrowser } from 'expo';
-const Beach = require('../assets/images/Beach.jpg');
+const Beach = require('../../assets/images/Beach.jpg');
 
 let width = Dimensions.get('window').width;
 export default class LinksScreen extends React.Component {

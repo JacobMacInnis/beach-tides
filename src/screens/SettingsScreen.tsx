@@ -8,7 +8,7 @@ export default class SettingsScreen extends React.Component {
     return (
       <ScrollView style={styles.privacyContainer}>
         <View style={styles.privacyLogoContainer}>
-          <Image source={require('../assets/images/BeachTides.png')} 
+          <Image source={require('../../assets/images/BeachTides.png')} 
             style={{flex: 1}}
             resizeMode="contain"/>
           <Text style={styles.loginTitle}>Beach Tides Privacy Policy</Text>

@@ -1,22 +1,23 @@
 {
   "expo": {
     "name": "Beach Tides",
-    "slug": "beach-tides",
+    "description": "BeachTides.us is built to give real time and future tide predictions. Search by zip code or city and get beach tide predictions. Search for tide information without creating accounts or create an account to allow storing favorite locations and having personalized themes. Beach Tides gives the most recent tide and up to the next eight tide changes.",
+    "slug": "beach-tides-mobile",
     "privacy": "public",
     "sdkVersion": "33.0.0",
     "platforms": [
       "ios",
-      "android",
-      "web"
+      "android"
     ],
-    "version": "1.0.0",
+    "version": "1.0.2",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/images/BeachTidesLogo.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/images/BeachTides_Splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#00D4FF"
     },
+    "primaryColor": "#00D4FF",
     "updates": {
       "fallbackToCacheTimeout": 0
     },
@@ -24,7 +25,19 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.BeachTides",
       "supportsTablet": true
+    },
+    "android": {
+      "versionCode": 2,
+      "package": "com.beachtides.beachtides",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/BeachTides-icon.png",
+        "backgroundImage": "./assets/images/BeachTides-background-icon.png"
+      },
+      "permissions": [
+        
+      ]
     }
   }
 }

@@ -14,9 +14,9 @@ import { AdMobBanner } from 'expo';
 import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
 import { BeachTidesState, BTError } from '../types/types';
 // IMAGES
-const Beach = require('../assets/images/Beach.jpg');
-const BeachTidesLogo = require('../assets/images/BeachTidesLogo.png');
-const BeachTides = require('../assets/images/BeachTides.png');
+const Beach = require('../../assets/images/Beach.jpg');
+const BeachTidesLogo = require('../../assets/images/BeachTidesLogo.png');
+const BeachTides = require('../../assets/images/BeachTides.png');
 // COMPONENTS
 import SearchForm from '../components/SearchForm';
 import TideDisplay from '../components/TidesDisplay';
